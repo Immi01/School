@@ -1,0 +1,31 @@
+body{
+    margin: 30px;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+.wrapper{
+    background-color: white;
+    height: 100vh;
+    padding: 10px;
+}
+
+.header{
+    /*display: flex;
+    justify-content: space-evenly;*/
+    text-align: center;
+}
+
+.input{
+    position: absolute;
+    right: 40px;
+    top: 120px;
+}
+
+.info{
+    padding-top: 20px;
+}
