@@ -1,6 +1,4 @@
-//JSON javascript object notation
-
-
+/*      Eventlisteners for Functions which could be used some time in future \/ (for saving tasks in cookies)
 document.addEventListener("DOMContentLoaded", function(event){   //Load Cookies
     cookieLoader();
 }, false);
@@ -8,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function(event){   //Load Cookies
 window.onunload = function(){   //Create Cookies
     cookieCreator();
 };
+*/
+
+//JSON javascript object notation
 
 const tasks = [];
 
@@ -51,16 +52,21 @@ function getHTMLTasks(){
     });
     return html;
 }
-
+/*      functions to implement cookies in the future \/
 function cookieCreator(){
+
+
+
     let date = new Date();
+    let months = ["Jan", "Feb", "mar", "",];
     let expires = date.getDate
-    document.cookie = "test = 3; expires=Fri, 11 Nov 2021 16:20:00 UTC; path=/";
-    document.cookie = "nichtTest = 30; expires=Fri, 11 Nov 2021 16:20:00 UTC; path=/";
-    console.log("yes")
+    document.cookie = "test = 3; expires=Fri, 26 Nov 2021 16:20:00 UTC; path=/";
+    document.cookie = "nichtTest = 30; expires=Fri, 26 Nov 2021 16:20:00 UTC; path=/";
+    console.log("yes");
 }
 
 function cookieLoader(){
     let x = document.cookie;
     console.log(x);
 }
+*/
