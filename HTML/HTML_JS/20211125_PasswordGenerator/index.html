@@ -17,17 +17,24 @@
             You can create a random password here.
         </div>
         <div class="input">
-            <div class="firstrow">
+            <div class="firstRow">
                 length: <input type="number" name="length" id="length" placeholder="default is 10">
                 <input type="checkbox" name="onlyNumber" id="onlyNumber"> only numbers
             </div>
-            <div class="secondrow">
-                <input type="checkbox" name="CapitalLetters" id="CapitalLetters"> CapitalLetters
-                <input type="checkbox" name="Symbols" id="Symbols"> Symbols (° ^ ! " § $ % & / { ( [ ] ) } ? \ @ + * ~ ' # , ; . : - _ < >)
+            <div class="secondRow">
+                <input type="checkbox" name="capitalLetters" id="capitalLetters"> Capital letters
+                <input type="checkbox" name="symbols" id="symbols">
+                Symbols (° ^ ! " § $ % & / { ( [ ] ) } ? \ @ + * ~ ' # , ; . : - _ &lt; &gt;)
+            </div>
+            <div class="thirdRow">
+                <input type="checkbox" name="noNumbers" id="noNumbers"> No numbers
             </div>
             <div class="button">
                 <button id="Generate">Generate</button>
             </div>
+        </div>
+        <div class="output" id="output">
+            test
         </div>
     </div>
 </body>
