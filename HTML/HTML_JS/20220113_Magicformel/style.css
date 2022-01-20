@@ -1,0 +1,63 @@
+body{
+    background-color: cadetblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    width: 150px;
+}
+
+.button{
+    color: white;
+    background-color: darkred;
+    border-style: solid;
+    border-color: black;
+    padding: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 82%;
+    cursor: pointer;
+}
+
+.right{
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    color: lightslategrey;
+    width: 140px;
+}
+
+
+
+/* Copy Pasted...  :( */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
